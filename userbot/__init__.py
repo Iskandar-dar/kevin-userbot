@@ -113,7 +113,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL", "https://github.com/Iskandar-dar/kevin-userbot"
 )
-UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "kevin-userbot")
+UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "Yuminyalaa-userbot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -224,7 +224,7 @@ INLINE_PIC = (os.environ.get("INLINE_PIC")
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✗"
 
 # °Kyura-Userbot°
-OWNER_URL = os.environ.get("OWNER_URL") or "https://t.me/sylucaz"
+OWNER_URL = os.environ.get("OWNER_URL") or "https://t.me/Yuminyalaa"
 
 
 
@@ -911,9 +911,9 @@ with bot:
                 )
             else:
                 result = builder.article(" **⚡Kevin-Userbot​⚡**",
-                                         text="""°𝙆𝙀𝙑𝙄𝙉-𝙐𝙎𝙀𝙍𝘽𝙊𝙏°""",
+                                         text="""YUMINYALAA-𝙐𝙎𝙀𝙍𝘽𝙊𝙏°""",
                                          buttons=[[custom.Button.url("ᴋʏᴜʀᴀ​",
-                                                                     "https://github.com/Kevinadriann/kevin-userbot"),
+                                                                     "https://github.com/Iskandar-dar/kevin-userbot"),
                                                    custom.Button.url("ᴄʜᴀɴɴᴇʟ​",
                                                                      "t.me/gabutnyaasy"),
                                                    ],
