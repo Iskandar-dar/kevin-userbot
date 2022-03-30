@@ -507,7 +507,7 @@ with bot:
                     f"➠ **Atau** Kalian Bisa Klik /notes Dibawah Jika Ada\n",
                     buttons=[
                         [Button.url("【﻿Ｃｈａｎｎｅｌ】",
-                                    "https://t.me/gabutnyaasy")],
+                                    "https://t.me/sokinajabro")],
                     ],
                 )
 
@@ -518,7 +518,7 @@ with bot:
             if event.message.from_id != uid:
                 await event.client.get_entity(event.chat_id)
                 await event.reply(
-                    f"{START_WELCOME}\n\n**Powered By** : @sylucaz\n\n",
+                    f"{START_WELCOME}\n\n**Powered By** : @Yuminyalaa\n\n",
                     buttons=[
                         [
                             custom.Button.inline("ꜱᴇᴛᴛɪɴɢꜱ", data="settings"),
@@ -915,7 +915,7 @@ with bot:
                                          buttons=[[custom.Button.url("ᴋʏᴜʀᴀ​",
                                                                      "https://github.com/Iskandar-dar/kevin-userbot"),
                                                    custom.Button.url("ᴄʜᴀɴɴᴇʟ​",
-                                                                     "t.me/gabutnyaasy"),
+                                                                     "https://t.me/sokinajabro"),
                                                    ],
                                                   [custom.Button.url("ʟɪᴄᴇɴsᴇ​",
                                                                      "https://github.com/Kevinadriann/kevin-userbot/LICENSE",
@@ -958,7 +958,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("❈ꜱᴜᴘᴘᴏʀᴛ❈", "t.me/margaace"),
-                            Button.url("❈ᴄʜᴀɴɴᴇʟ❈", "t.me/gabutnyaasy"),
+                            Button.url("❈ᴄʜᴀɴɴᴇʟ❈", "t.me/sokinajabro"),
                         ],
                         [custom.Button.inline(
                             "°ᴏᴘᴇɴ ᴍᴇɴᴜ°", data="open_plugin")],
