@@ -550,7 +550,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"Usᴇʀʙᴏᴛ Tᴇʟᴇɢʀᴀᴍ\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 5.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ @Kyurasupport "
+                text = f"Usᴇʀʙᴏᴛ Tᴇʟᴇɢʀᴀᴍ\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 5.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ @sokinajabro "
                 await event.edit(
                     text,
                     file=roselogo,
@@ -596,7 +596,7 @@ with bot:
                     ],
                 )
             else:
-                reply_pop_up_alert = f"🤴 Name : {DEFAULTUSER}\n🤖 Bot Ver : 5.0\n🛠 Modules : {len(plugins)}\n✨ Branch : kevin-userbot"
+                reply_pop_up_alert = f"🤴 Name : {DEFAULTUSER}\n🤖 Bot Ver : 5.0\n🛠 Modules : {len(plugins)}\n✨ Branch : YUMINYALAA-userbot"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @ tgbot.on(
