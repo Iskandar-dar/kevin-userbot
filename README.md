@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://telegra.ph/file/a4bf1daad9c9f54226cdc.jpg">
+  <img src="https://telegra.ph/file/3c77d214c36960b9347f0.jpg">
 </p>
 
 <h2 align="center">
@@ -20,8 +20,8 @@
 </h2>
 
 <p align="center">
-<a href="https://dashboard.heroku.com/new?template=https://github.com/Kevinadriann/kevin-userbot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250""/</a>  
-<a href="https://telegram.dog/XTZ_HerokuBot?start=S2V2aW5hZHJpYW5uL2tldmluLXVzZXJib3Qga2V2aW4tdXNlcmJvdA"><img src="https://img.shields.io/badge/Deploy%20Via%20Telegram-blue?style=for-the-badge&logo=telegram" width="250""/</a>  </p>
+<a href="https://dashboard.heroku.com/new?template=https://github.com/Iskandar-dar/kevin-userbot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250""/</a>  
+<a https://telegram.dog/XTZ_HerokuBot?start=SXNrYW5kYXItZGFyL2tldmluLXVzZXJib3Qga2V2aW4tdXNlcmJvdA"><img src="https://img.shields.io/badge/Deploy%20Via%20Telegram-blue?style=for-the-badge&logo=telegram" width="250""/</a>  </p>
 
 
 
