@@ -31,7 +31,7 @@ async def kyura_usbot_on():
         if BOTLOG_CHATID != 0:
             await bot.send_message(
                 BOTLOG_CHATID,
-                f"💢 Yuminyalaa - Userbot Berhasil Diaktfikan 💢\n╼┅━━━━━╍━━━━━┅╾\n❍▹ Bot Of : {ALIVE_NAME}\n❍▹ BotVer : {BOT_VER}\n@{UPSTREAM_REPO_BRANCH}\n╼┅━━━━━╍━━━━━┅╾",
+                f"💢 Yuminyalaa - Userbot Berhasil Diaktfikan 💢\n╼┅━━━━━╍━━━━━┅╾\n❍▹ Bot Of : {ALIVE_NAME}\n❍▹ BotVer : {BOT_VER}\n@Yuminyalaa\n╼┅━━━━━╍━━━━━┅╾",
             )
     except Exception as e:
         LOGS.info(str(e))
