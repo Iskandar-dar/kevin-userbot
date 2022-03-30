@@ -86,7 +86,7 @@ PM_LIMIT = int(os.environ.get("PM_LIMIT", 6))
 # Custom Pmpermit pic
 PMPERMIT_PIC = (
     os.environ.get("PMPERMIT_PIC", None)
-    or "https://telegra.ph/file/a4bf1daad9c9f54226cdc.jpg"
+    or "https://telegra.ph/file/c0f75c1e1456d1032ad2d.jpg"
 )
 
 # Bleep Blop, this is a bot ;)
@@ -111,7 +111,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/Kevinadriann/kevin-userbot"
+    "UPSTREAM_REPO_URL", "https://github.com/Iskandar-dar/kevin-userbot"
 )
 UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "kevin-userbot")
 
@@ -214,11 +214,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/a4bf1daad9c9f54226cdc.jpg")
+              or "https://telegra.ph/file/c0f75c1e1456d1032ad2d.jpg")
 
 # Default .helpme Logo
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/a4bf1daad9c9f54226cdc.jpg")
+              or "https://telegra.ph/file/c0f75c1e1456d1032ad2d.jpg")
 
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✗"
@@ -583,7 +583,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid:
                 text = (
-                    f"❁ __Saya Adalah Kevin Userbot Yang Digunakan Banyak User Telegram__.\n\n"
+                    f"❁ __Saya Adalah Yuminyalaa Userbot Yang Digunakan Banyak User Telegram__.\n\n"
                     f"❁ __Saya Dibuat Hanya Untuk Bersenang Senang Ditelegram__.\n\n"
                     f"❁ __Kelebihan Saya Banyak, Saya Mempunyai 180 Modules__.\n\n"
                     f"© @margaace")
